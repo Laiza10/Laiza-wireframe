@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpeg');
+            background-size: cover;
+            background-attachment: fixed; /* Ensure background image doesn't scroll */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Add semi-transparent background */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px; /* Increase font size for better emphasis */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for effect */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px; /* Increase font size for better readability */
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+            border-bottom: 2px solid transparent; /* Add bottom border initially transparent */
+        }
+
+        nav ul li a:hover {
+            color: #ffc107; /* Change color on hover */
+            border-bottom-color: #ffc107; /* Change bottom border color on hover */
+        }
+
+        .nav-container {
+            display: inline-block;
+        }
+
+        .container {
+            padding: 15px 20px; /* Add padding for spacing */
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+            margin-bottom: 20px; /* Add space between containers */
+        }
+
+        .intro-to-html {
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(178,69,69,1) 50%, rgba(252,176,69,1) 100%);; /* Red */
+        }
+
+        .html-table {
+             background: rgb(131,58,180);
+             background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(178,69,69,1) 50%, rgba(252,176,69,1) 100%);/* Blue */
+        }
+
+        .song-lyrics-with-audio {
+             background: rgb(131,58,180);
+             background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(178,69,69,1) 50%, rgba(252,176,69,1) 100%);/* Green */
+        }
+
+        .video-song-lyrics-with-audio {
+             background: rgb(131,58,180);
+             background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(178,69,69,1) 50%, rgba(252,176,69,1) 100%);/* Orange */
+        }
+
+        .coffee-list {
+             background: rgb(131,58,180);
+             background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(178,69,69,1) 50%, rgba(252,176,69,1) 100%);/* Purple */
+        }
+
+        section {
+            padding: 20px;
+            color: #333; /* Change text color for better contrast */
+            background-color: rgba(255, 255, 255, 0.9); /* Add semi-transparent background */
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Add semi-transparent background */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <div class="nav-container">
+                    <div class="container intro-to-html">
+                        <li class="nav-link"><a href="https://laiza10.github.io/Lai.intro/">Intro to HTML</a></li>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <div class="container html-table">
+                        <li class="nav-link"><a href="https://laiza10.github.io/Lai.table/">HTML Tables</a></li>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <div class="container song-lyrics-with-audio">
+                        <li class="nav-link"><a href="https://laiza10.github.io/Lai/">Media, Div, Inline and Block elements (Song lyrics with Audio)</a></li>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <div class="container video-song-lyrics-with-audio">
+                        <li class="nav-link"><a href="https://laiza10.github.io/Laizaaa/">Media, Div, Inline and Block elements (Video, Song lyrics with Audio)</a></li>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <div class="container coffee-list">
+                        <li class="nav-link"><a href="https://laiza10.github.io/Laiza-coffeshop/">Coffee Menu lists</a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+    <footer>
+        &copy; 2024 My Website. All Rights Reserved.
+    </footer>
+</body>
+</html>
+
